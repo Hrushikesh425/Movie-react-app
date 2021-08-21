@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +35,91 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* 
+custome css */
+.container{
+  width: 70%;
+  /* background-color:#dbfccf; */
+  margin-left: 15%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #DBFCCF;
+box-shadow: inset -8px -8px 12px #FFFFFF, inset 8px 8px 12px rgba(141, 130, 130, 0.25);
+border-radius: 20px;
+
+}
+.padd{
+  padding: 15px;
+  
+}
+.search-field{
+   width: 90%;
+  margin-left: 30px;
+  height: 60%;
+  font-size:40px;
+  /* border-radius: 10px;
+  border: 1px solid grey; */
+   outline: none; 
+  background: #F5F5F5;
+box-shadow: inset 4px 4px 12.5px rgba(37, 47, 34, 0.25), inset -12px -12px 12.5px #FFFFFF;
+border-radius: 350px;
+  text-indent: 20px;
+  border: none !important;
+}
+.movie{
+  padding: 5px;
+ 
+  margin-top: 30px;
+  display: flex;
+  
+  margin-left: 20px;
+
+}
+.posters{
+ 
+  width: 30%;
+  margin-left: 10px;
+  overflow: hidden;
+}
+.details{
+ 
+  width: 70%;
+  margin-left: 50px;
+}
+/* .posters{
+} */
+
+.img-posters{
+  width: 100%;
+}
+.padding p{
+  font-size: 20px;
+
+}
+h1,h2,h3{
+  margin: 0px;
+}
+.ratings{
+  display: flex;
+}
+.form-grp{
+  display: flex;
+  justify-content: center;
+  
+}
+.title-grp{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.btn{
+  width: 15%;
+  margin-left: 30px;
+  color: black;
+  background: #DBFCCF;
+  box-shadow: -6px -6px 12px #FFFFFF, 6px 6px 12px rgba(160, 133, 133, 0.25);
+  border-radius: 30px;
+  font-size: 20px;
+  border: none;
+  pointer-events: pointer;
 }
